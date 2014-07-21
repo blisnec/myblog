@@ -1,3 +1,4 @@
+
 CREATE TABLE IF NOT EXISTS `articles` (
   `article_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `article_title` varchar(255) DEFAULT NULL,

@@ -5,6 +5,7 @@
       <title>Log in</title>
 </head>
 <body>
+<div style="width: 600px; margin: 0px auto;">
 <div>
     <p><?php  echo $error;?></p>
 Login | <a href="/main">Home</a> | <a href="/users/signup">Sign up</a>
@@ -16,6 +17,7 @@ Login | <a href="/main">Home</a> | <a href="/users/signup">Sign up</a>
 
 <input type="submit" value=" Login" />
 
+</div>
 </div>
 </body>
 </html>

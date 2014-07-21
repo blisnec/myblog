@@ -5,6 +5,7 @@
       <title>Sign up</title>
 </head>
 <body>
+<div style="width: 600px; margin: 0px auto;">
 Sign up | <a href="/main">Home</a>
 <?php echo form_open(base_url().'index.php/users/signup'); ?>
 
@@ -31,6 +32,6 @@ Sign up | <a href="/main">Home</a>
 <div><input type="submit" value="Submit" /></div>
 
 </form>
-
+</div>
 </body>
 </html>
